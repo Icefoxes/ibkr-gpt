@@ -10,6 +10,7 @@ this project has something to offer. Join us in this exciting journey of innovat
 ``
 ## Install with Python12 on Windows
 
+### Open TWS
 ### setup venv
 ```shell
 python -m venv runtime
@@ -33,7 +34,7 @@ pip install ta_lib-0.5.1-cp312-cp312-win_amd64.whl
 pip install -r requirement.txt
 ```
 
-2. setup environment
+## Setup Confiugration
 ```editorconfig
 [chat]
 key =
@@ -49,7 +50,7 @@ token =
 symbols=IBKR
 ```
 
-3. start application
+## start application
 ```shell
 python main.py
 ```
